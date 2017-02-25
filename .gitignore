@@ -1,2 +1,10 @@
+# all files related to Xcode
 /DataStructureVisualizer.xcodeproj
 .DS_Store
+
+# include ignore for all windows files as well
+
+# all testing files
+*.o
+/Tests/tests
+g
