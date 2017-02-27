@@ -54,7 +54,7 @@ void DisplayList::Draw(){
     sf::RectangleShape NULL2;
     sf::RectangleShape NULL3;
     sf::RectangleShape part2;
-    sf::CircleShape part4(6,3);
+    sf::CircleShape part4(BOX_SIZE / 5,3);
     NULL1.setFillColor(sf::Color::Black);
     NULL1.setSize(sf::Vector2f(3, BOX_SIZE));
     NULL1.setPosition(x_position + BOX_SIZE / 3, 300);
@@ -80,7 +80,7 @@ void DisplayList::Draw(){
         sf::RectangleShape NODE;
         sf::RectangleShape item;
         sf::RectangleShape part1;
-        sf::CircleShape part3(6,3);
+        sf::CircleShape part3(BOX_SIZE/5,3);
         sf::Text content;
         part1.setFillColor(sf::Color::Black);
         part1.setSize(sf::Vector2f(BOX_SIZE/2,3));
